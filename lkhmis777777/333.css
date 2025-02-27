@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.icon {
+    font-size: 20px;
+    color: goldenrod;
+    margin-right: 8px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+    color: black;
+}
+
+.icons i:hover {
+    color: gray;
+}
+
+  
+:root {
+    --primary: rgba(184, 142, 47, 1);
+    --font-color: rgba(51, 51, 51, 1);
+    --font-color1: rgba(102, 102, 102, 1);
+    --color-gray-1: rgba(58, 58, 58, 1);
+    --color-gray-4: rgba(176, 176, 176, 1);
+    --color-gray-3: rgba(137, 137, 137, 1);
+    --color-white: rgba(255, 255, 255, 1);
+    --color-gray-2: rgba(97, 97, 97, 1);
+    --color-light-bg: rgba(244, 245, 247, 1);
+    --color-red-accents: rgba(233, 113, 113, 1);
+    --color-green-accents: rgba(46, 193, 172, 1);
+    --color-gray-5: rgba(216, 216, 216, 1);
+  }
+
+  .home {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 4835px;
+    position: relative;
+  }
+  
+  .home .banner {
+    position: absolute;
+    width: 1440px;
+    height: 813px;
+    top: 0;
+    left: 0;
+  }
+  
+  .home .group {
+    position: absolute;
+    width: 1185px;
+    height: 685px;
+    top: 869px;
+    left: 131px;
+  }
+  
+  .home .div-wrapper {
+    position: absolute;
+    width: 73px;
+    height: 36px;
+    top: 649px;
+    left: 556px;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .mask-group {
+    position: absolute;
+    width: 381px;
+    height: 480px;
+    top: 139px;
+    left: 0;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    top: 649px;
+    left: 151px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: var(--font-color);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .image-living-room {
+    position: absolute;
+    width: 381px;
+    height: 480px;
+    top: 139px;
+    left: 401px;
+  }
+  
+  .home .img {
+    position: absolute;
+    width: 381px;
+    height: 480px;
+    top: 139px;
+    left: 802px;
+  }
+  
+  .home .group-2 {
+    position: absolute;
+    width: 114px;
+    height: 36px;
+    top: 649px;
+    left: 936px;
+  }
+  
+  .home .group-3 {
+    position: absolute;
+    width: 563px;
+    height: 77px;
+    top: 0;
+    left: 318px;
+  }
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 94px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: var(--font-color);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .treating-all-skin-co {
+    position: absolute;
+    width: 559px;
+    top: 52px;
+    left: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: var(--font-color1);
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .our-products {
+    position: absolute;
+    width: 1238px;
+    height: 1084px;
+    top: 1610px;
+    left: 102px;
+  }
+  
+  .home .show-more {
+    position: absolute;
+    width: 247px;
+    height: 48px;
+    top: 1036px;
+    left: 496px;
+  }
