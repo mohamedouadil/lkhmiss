@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.icon {
+    font-size: 20px;
+    color: goldenrod;
+    margin-right: 8px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.icons i {
+    cursor: pointer;
+    color: black;
+}
+
+.icons i:hover {
+    color: gray;
+}
+.container {
+    background: rgba(255, 235, 205, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 800px;
+    justify-content: end;
+   
+}
+
+h4 {
+    margin: 0;
+    color: #444;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 10px 0;
+    color: #6b4f27;
+    font-size: 28px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+button {
+    background-color: #8c6a35;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6b4f27;
+}
+.cont{
+    background-image: url(https://s3-alpha-sig.figma.com/img/98fb/219f/a11f805aade2224f1d6658764a2395df?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Qz7YRO4Vz4ZOR5F2iEErRNYSChhr4J9QMK-d-8RG7dRDweUY916RZB8SepqH9Ro6IEs7shRXSVD-eI5NC8KxPskEgcdUHleeEbL1rQ2AuCRm5-kIw4liv4LdNl0A6E7JH5p2uHiJGbB~FJw4fdNlTk~Nwuk2bcLRS~LuYec6-PRUCbOWg4cLv--083EVQsuvOn0eK7MVKW~ijZ4ooanx6nXGCMbLWxNBpvkCd5NfJ4foEbz3dyflQnEolW5WdZ58-8EkMh7Z6YPkU5S2Jn61a~qleIl1Omv~9BCovwqiNayZNax8X~74Zv9bgw0swdeg~vYxWAK~GDYJ6ism34s4Cg__);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+}
